@@ -1,0 +1,56 @@
+@media screen and (min-width:376px) {
+
+    .header{
+        width: 100vw;
+        padding-bottom: 20px;
+        align-items: flex-end;
+        
+    }
+        
+    .navbar{
+        width: 500px;
+        height: 100px;
+        flex-direction: row;
+        position: initial;
+
+    }
+
+    .button{
+        width: 120px;
+        
+    }
+
+    .container{
+        width: 100vw;
+        flex-direction: row;
+        align-items: flex-start;
+
+    }
+
+    .card1{
+        width:1000px ;
+        height: 500px;
+        margin-top: 50px;
+        margin-left: 50px;
+        order: 2;
+
+    }
+
+    .searchbar{
+        width: 1000px;
+
+    }
+
+    .grid{
+        width: 1000px;
+
+    }
+    
+    .card2{
+        width:300px ;
+        height: 500px;
+        margin-top: 50px;
+        order: 1;
+        
+    }
+}
