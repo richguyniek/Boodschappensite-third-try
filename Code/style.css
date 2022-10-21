@@ -41,7 +41,7 @@
 
 .container{
     width: 375px;
-    height:1000px;
+    height:fit-content;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -53,7 +53,7 @@
 .card1{ /*height vervangen met fit-content waarneer de grid af is*/
     margin-top: 20px;
     width:300px ;
-    height: 500px; 
+    height: fit-content; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -70,16 +70,20 @@
 }
 
 .grid{
-    height: 425px;
-    width: 300px;
-    background-color: blueviolet;
+  display: grid;
+  grid-template-columns:repeat(2, 150px[col-start]);
+  grid-template-rows:repeat(8, 100px[col-start]) ;
 
 }
 
 .card2{ 
     width:300px ;
-    height: 500px;
-    margin-top: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    bottom: 20px;
     background-color: blue;
 
 }
