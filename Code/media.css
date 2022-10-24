@@ -36,6 +36,10 @@
 
     }
 
+    #form{
+       
+    }
+
     .searchbar{
         width: 1000px;
 
@@ -53,11 +57,30 @@
         margin-top: 50px;
         align-items: center;
         justify-content: flex-start;
-        top: 20px;
-        bottom: 0px;
+        left: 10px;
+        bottom:0px;
         order: 1;
         
     }
 
+    p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: large;
+    }
 
+    #product{
+        width: 110px;
+    }
+
+    #add{
+        width: 30px;
+        
+    }
+
+    #remove{
+        width: 30px;
+        
+    }
+    
 }
