@@ -46,7 +46,7 @@
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    background-color: grey;
+    background-color: rgb(253, 240, 229);
 
 }
 
@@ -70,6 +70,40 @@
     align-items: center;
     justify-content: center;
     background-color: blue;
+
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+form{
+    height: 25px;
+    border-radius: 20px;
+    overflow:hidden;
+    background-color:rgb(248, 242, 242);
+    display: flex;
+    flex: row;
+    align-items: center;
+    
+}
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+
+}
+
+::placeholder {
+    color: black;
+    opacity: 0.7; 
 
 }
 
