@@ -8,6 +8,11 @@
         <style>
             
         </style>
+        <script>
+            function toggle_shoopingcart(){
+                
+            }
+        </script>
     </head>
     <body>
 
@@ -140,8 +145,24 @@
         </div>
         
         <div class="card2"> <!--add "<ul>"-->
-            <div class="order"> 
+            <div class="shoppingcart-header" onclick="toggle_shoopingcart();">
 
+                <h3>total sum</h3>
+
+            </div>
+            <ul id="shopping-cart-list" class="product-list">
+
+                <!-- example to generate shooping cart item -->
+                <li id="some-product-id" class="shoppingcart-item">
+                    <span class="product-name">koffie</span>
+                    <span class="product-prijs">&euro;5,75</span>
+                    <input type="Number" class="product-aantal" value="1" readonly />
+            </ul>
+                </li>
+            <div class="shoppingcart"> 
+
+                <h3></h3>
+                
             </div>
         </div>
     </div>

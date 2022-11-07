@@ -123,10 +123,12 @@ input {
     position: sticky;
     top: 250px;
     bottom: 0px;
-    background-color: blue;
+    background-color: rgb(175, 175, 221);
     
 
 }
+
+
 
 p{
     margin-top: 2px;
