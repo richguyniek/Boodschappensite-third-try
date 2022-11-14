@@ -123,28 +123,26 @@ input {
     position: sticky;
     top: 250px;
     bottom: 0px;
-    background-color: rgb(175, 175, 221);
+    background-color: rgb(141, 141, 187);
     
 
 }
-
-
 
 p{
     margin-top: 2px;
     margin-bottom: 2px;
 }
 
-#add{
+.add{
     width: 10px;
     
 }
 
-#product{
+.product{
     width:70px;
 }
 
-#remove{
+.remove{
     width:10px;
     
 }
@@ -222,4 +220,9 @@ p{
 .item15{
     text-align: center;
     padding-top: 20px;
+}
+
+/* hidden class om elementen te verstoppen */
+.hidden-element{
+    display: none;
 }

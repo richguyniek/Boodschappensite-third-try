@@ -69,18 +69,19 @@
         font-size: large;
     }
 
-    #product{
+    .product{
         width: 110px;
     }
 
-    #add{
+    .add{
         width: 30px;
         
     }
 
-    #remove{
+    .remove{
         width: 30px;
         
     }
     
 }
+
