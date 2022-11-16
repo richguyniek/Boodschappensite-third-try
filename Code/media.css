@@ -57,9 +57,12 @@
         margin-top: 50px;
         align-items: center;
         justify-content: flex-start;
+        flex-direction:column;
         left: 10px;
         bottom:0px;
         order: 1;
+        
+
         
     }
 
@@ -68,6 +71,7 @@
         margin-bottom: 10px;
         font-size: large;
     }
+    
 
     .product{
         width: 110px;
@@ -82,6 +86,36 @@
         width: 30px;
         
     }
+
+    .hidden-element{
+        display:initial;
+    }
     
-}
+    .placeholderitem{
+        width:300px;
+        height:50px;
+    }
+
+    #some-product-id{
+        margin-left:20px;
+    }
+
+    .product-name{
+        max-width:200px;
+        margin-left:0px;
+        margin-right: auto;
+
+    }
+
+    .product-prijs{
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
+    .product-aantal{
+        margin-right: 0px;
+        margin-left:auto;
+    }
+    
+}   
 

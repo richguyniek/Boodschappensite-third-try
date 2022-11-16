@@ -10,8 +10,7 @@
         </style>
         <!-- dit is hoe je javascript linkt naar je pagina -->
         <script src="interactions_javascript.js"></script>
-        <script>
-        </script>
+        
     </head>
     <body>
 
@@ -144,25 +143,26 @@
             </div>
         </div>
         
-        <div class="card2"> <!--add "<ul>"-->
+        <div class="card2"> 
             <div class="shoopingcart-header" onclick="toggle_shoopingcart_onclick();">
 
-                <h3>total sum</h3>
+                <h3>Total Sum</h3> <!---value calculator toevoegen die alle items in de shoopingcart gebruikt-->
 
             </div>
-            <ul id="shooping-cart-list" class="product-list">
-
+            <div class="hidden-element">
+                <ul id="shooping-cart-list" class="product-list" >
+                    <!--prijs en value veranderen naar twee aparte columns zodat het mooi overzichtelijk wordt-->
                 <!-- example to generate shooping cart item -->
-                <li id="some-product-id" class="shoppingcart-item">
-                    <span class="product-name">koffie</span>
+                <!-- value="1" is a placeholder for javascript-->
+                <div class="placeholderitem">
+                    <li id="some-product-id" class="shoppingcart-item">
+                    <span class="product-name">placeholder</span>
                     <span class="product-prijs">&euro;5,75</span>
-                    <input type="Number" class="product-aantal" value="1" readonly />
-            </ul>
+                    <input type="Number" class="product-aantal" value="1"  readonly />
+                </div>
+            
+                </ul>
                 </li>
-            <div class="shoppingcart"> 
-
-                <h3></h3>
-                
             </div>
         </div>
     </div>

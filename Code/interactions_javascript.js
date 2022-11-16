@@ -31,11 +31,11 @@ function example_schermbreedte(){
         shoopingcart_element.style.display = "none";
     }
     else if (window.innerWidth >= "500"){
-        console.log("bugger then 500");
+        console.log("bigger then 500");
         shoopingcart_element.style.display = "flex";
     }
     else{
-        console.log("ERROR A1 : als die hier komt, is er iets goed fout.");
+        console.log("ERROR A1 : window.innerWidth.");
     }
     console.log (shoopingcart_element.style.display);
 }
