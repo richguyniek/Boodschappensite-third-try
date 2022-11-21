@@ -117,5 +117,9 @@
         margin-left:auto;
     }
     
+
+    .visible{
+        display: flex;
+    }
 }   
 

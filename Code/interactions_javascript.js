@@ -5,7 +5,27 @@
 
 /* dit gaat onze shoopingcart togglen wanneer op de header geklikt wordt */
 function toggle_shoopingcart_onclick(){
-    let shoopingcart_element= document.getElementById("shooping-cart-list");
+    // let shoopingcart_element= document.getElementById("shooping-cart-list");
+    // if (shoopingcart_element.style.display=="none"){
+    //     shoopingcart_element.style.display="flex";
+    // }
+    // else if(shoopingcart_element.style.display=="flex"){
+    //     shoopingcart_element.style.display="none";
+    // }
+    let shoopingcart_element = document.getElementById("hidden-container");
+    
+    //shoopingcart_element.classList.toggle("visible");
+
+    if(window.innerWidth<="375"){
+        shoopingcart_element.classList.toggle("visible")
+    }
+
+    else if(window.innerWidth>="375"){
+        console.log("changed to 375px");
+        shoopingcart_element.classList.remove("visible");
+    }
+
+        
     /*
         dit moeten we later aanpassen naar een check voor de display
         if(display == "none") dan zet het op flex en andersom

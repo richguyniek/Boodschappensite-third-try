@@ -158,7 +158,8 @@ p{
 
 
 /* hidden class om elementen te verstoppen */
-.hidden-element{
+.visible{
     display: none;
-
+    
 }
+
