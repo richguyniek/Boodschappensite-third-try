@@ -116,8 +116,9 @@ input {
 
 .card2{ 
     width:300px ;
-    height: 60px;
+    height: fit-content;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: sticky;
@@ -162,4 +163,37 @@ p{
     display: none;
     
 }
+
+#some-product-id{
+    margin-left:20px;
+}
+
+.product-name{
+    max-width:200px;
+    margin-left:0px;
+    margin-right: auto;
+
+}
+
+.product-prijs{
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+.product-aantal{
+    width: 25px;
+}
+
+#value-calculator{
+    padding-left: 20px;
+}
+
+.shoopingcart-header{
+    width: 300px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
 

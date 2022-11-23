@@ -41,21 +41,21 @@ function toggle_shoopingcart_onclick(){
 
 
 // voorbeeld om met scherm breedte te werken
-function example_schermbreedte(){
-    let shoopingcart_element= document.getElementById("shooping-cart-list");
+//function example_schermbreedte(){
+   // let shoopingcart_element= document.getElementById("shooping-cart-list");
     
     // voorbeeld om met scherm breedte te werken
-    console.log(window.innerWidth);
-    if(window.innerWidth <= "500"){
-        console.log("changed to 500px");
-        shoopingcart_element.style.display = "none";
-    }
-    else if (window.innerWidth >= "500"){
-        console.log("bigger then 500");
-        shoopingcart_element.style.display = "flex";
-    }
-    else{
-        console.log("ERROR A1 : window.innerWidth.");
-    }
-    console.log (shoopingcart_element.style.display);
-}
+    //console.log(window.innerWidth);
+    //if(window.innerWidth <= "500"){
+       // console.log("changed to 500px");
+       // shoopingcart_element.style.display = "none";
+    //}
+    //else if (window.innerWidth >= "500"){
+      //  console.log("bigger then 500");
+       // shoopingcart_element.style.display = "flex";
+   // }
+    //else{
+        //console.log("ERROR A1 : window.innerWidth.");
+    //}
+    //console.log (shoopingcart_element.style.display);
+//}

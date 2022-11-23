@@ -1,0 +1,27 @@
+<!--voorbeeld html framework voor calculator -->
+
+
+<html>
+  <body>
+    <form class="calc">
+      <input type="text" id="item1" value="numberA" /><br />
+      <input type="text" id="item2" value="numberB" /><br />
+      <input type="text" id="item3" value="Result"  />
+      <div class="button">
+
+        <!--hier zie je de oncliick button. calculate, is de functie die je aan de onclick geeft. 
+        de text tussenhaakjes achter calculate, geeft aan wat je wil dat JS ermee doet. -->
+
+        <!--je kunt items in HTML ook een value geven. 
+          vervolgens kan je in JS dan met document.getElementbyId("calc").value de waarde ophalen.-->
+
+        <button onclick="calculate('+',item3)">+</button>
+       <button onclick="calculate('-',item3)">-</button>
+       <br /><button onclick="calculate('/',text3)">/</button>
+
+<button onclick="calculate('*',text3)">X</button>
+      </div>  
+      <input type="reset" value="Reset" onclick="clear()"/>
+    </form>  
+  </body>
+</html>

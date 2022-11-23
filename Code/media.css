@@ -55,6 +55,7 @@
         width:300px ;
         height: 500px;
         margin-top: 50px;
+        display:flex;
         align-items: center;
         justify-content: flex-start;
         flex-direction:column;
@@ -96,30 +97,13 @@
         height:50px;
     }
 
-    #some-product-id{
-        margin-left:20px;
-    }
 
-    .product-name{
-        max-width:200px;
-        margin-left:0px;
-        margin-right: auto;
-
-    }
-
-    .product-prijs{
-        margin-left:auto;
-        margin-right: auto;
-    }
-    
-    .product-aantal{
-        margin-right: 0px;
-        margin-left:auto;
-    }
-    
 
     .visible{
         display: flex;
     }
+
+
+
 }   
 
