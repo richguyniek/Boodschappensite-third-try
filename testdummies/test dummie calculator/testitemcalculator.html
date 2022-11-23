@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href=>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <div class="item1">
+            
+                <p>item1</p>
+                    
+                    <button  id="add" onclick="calculate('+')">+</button>
+                    <span id="item1-total"></span> <!--in JS console.log(sum([add,-remove]))-->
+                    <button id="remove" onclick="calculate('-')">-</button>
+                   
+
+        </div>
+
+        <div class="card2"> 
+            <div class="shoopingcart-header" onclick="toggle_shoopingcart_onclick();">
+                <h3>Total Sum</h3> 
+                <div id="value-calculator">1209</div>
+            </div>
+
+            <div id="hidden-container" > 
+                <ul id="shooping-cart-list" class="product-list" >
+
+                <div class="placeholderitem">
+                    <li id="some-product-id" class="shoppingcart-item">
+                    <span class="product-name">placeholder</span>
+                    <span class="product-prijs">&euro;placeholder</span>
+                    <input type="Number" class="product-aantal" value="1"  readonly />
+                </div>
+                </ul>
+                </li>
+            </div>
+    
+    </body>
+     
+    </html>
